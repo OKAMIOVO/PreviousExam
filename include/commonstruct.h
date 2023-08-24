@@ -18,5 +18,5 @@ void Init_List(LinkList* L);
 bool List_Empty(LinkList L);
 void Link_insert(LinkList* L, int n, int e);
 void Link_delete(LinkList* L, int n, int* e);
-
+void QuickSort(int A[],int low,int high);
 #endif

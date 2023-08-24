@@ -1,27 +1,35 @@
 #include <stdio.h>
 #include "ch2.h"
 #include "commonstruct.h"
+#include "ch5.h"
+#include "ch8.h"
 
 int main() {
-    ConverseEx(); 
+    // ConverseEx(); 
 
-    HeapSortEx();
+    // HeapSortEx();
 
-    MidSearchEx();
+    // MidSearchEx();
 
-    MajorityElemEx();
+    // MajorityElemEx();
 
-    firstMissingPositiveEx();
+    // firstMissingPositiveEx();
 
-    minDisEx();
+    // minDisEx();
 
-    ExampleProcedure();
+    // ExampleProcedure();
 
-    IntersectExample();
+    // IntersectExample();
 
-    DelReeatNodeExample(); 
+    // DelReeatNodeExample(); 
 
-    ReordListEx();
+    // ReordListEx();
+
+    // wplEx();
+
+    // ansEx();
+
+    setParationEx();
 
     return 0;
 }
