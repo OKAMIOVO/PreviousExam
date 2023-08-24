@@ -18,5 +18,15 @@ void Init_List(LinkList* L);
 bool List_Empty(LinkList L);
 void Link_insert(LinkList* L, int n, int e);
 void Link_delete(LinkList* L, int n, int* e);
+
 void QuickSort(int A[],int low,int high);
+
+void CreateMGraph(MGraph* G);
+void CreateMGraphDirect(MGraph* G);
+void ShowMGraph(MGraph G);
+
+void InitSeqList(SqList* L);
+bool SeqListInsert(SqList* L, int i, int e);
+bool SeqListDelete(SqList* L, int i, int* e);
+
 #endif

@@ -5,7 +5,12 @@
 #define true  1
 #define false 0
 
-#define MAXV 5
+#define MAXSIZE 10 //定义最大长度
+
+typedef struct {
+    int data[MAXSIZE]; //使用静态数组存放数据元素
+    int length;        //顺序表的长度
+} SqList;
 
 typedef struct LNode {
     int data;
@@ -48,10 +53,13 @@ typedef struct node {
     struct node *lchild, *rchild;
 }BTNode,*BTree;
 
+typedef char VertexType;
+typedef int EdgeType;
+#define MAXV 5
 typedef struct{                 // 图的定义
     int numVertices,numEdges;   // 图中实际的顶点数和边数
-    char VerticesList[MAXV];    // 顶点表
-    int Edge[MAXV][MAXV];       // 邻接矩阵
+    VertexType VerticesList[MAXV];    // 顶点表
+    EdgeType Edge[MAXV][MAXV];       // 邻接矩阵
 }MGraph;
 
 #endif

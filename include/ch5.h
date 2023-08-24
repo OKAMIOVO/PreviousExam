@@ -2,4 +2,5 @@
 #define __CH5_H__
     void wplEx();
     void ansEx();
+    void judgeBstEx();
 #endif

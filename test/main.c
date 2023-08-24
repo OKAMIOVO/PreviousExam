@@ -1,11 +1,13 @@
-#include <stdio.h>
 #include "ch2.h"
-#include "commonstruct.h"
 #include "ch5.h"
+#include "ch6.h"
 #include "ch8.h"
+#include "commonstruct.h"
+
+#include <stdio.h>
 
 int main() {
-    // ConverseEx(); 
+    // ConverseEx();
 
     // HeapSortEx();
 
@@ -21,7 +23,7 @@ int main() {
 
     // IntersectExample();
 
-    // DelReeatNodeExample(); 
+    // DelReeatNodeExample();
 
     // ReordListEx();
 
@@ -31,5 +33,9 @@ int main() {
 
     setParationEx();
 
-    return 0;
+    // IsExistELEx();
+
+    // printVerticesEx();
+
+    judgeBstEx();
 }
